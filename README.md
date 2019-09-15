@@ -1,12 +1,14 @@
 # Interactive Interfaces 1
 This is our course site
 
-## Inspiration
-[link one](https://www.google.ca/search?q=image&rlz=1C5CHFA_enCA865&oq=image&aqs=chrome..69i57j0l5.663j0j8&sourceid=chrome&ie=UTF-8)
-[link 2]
-
 ##  Meeting Notes: Sept 11, 2019
 
+## Inspiration
+- Reduce the amount of information displayed per site
+- Narrative in the flow
+- curved frames
+
+### Content
 - Header
     - GBC logo
     - Showcase of works made by students 
@@ -51,16 +53,10 @@ This is our course site
     - Student Association
     - STU-View
 
-### Design 
-
-        - Narrative in the flow
-
-# Reduce the amount of information displayed per site
-# curved frames
-
 ### Design Ghuide
-
+- Typeface Helvetica
+- Rounded squares
 
 ### Colours
 - back '#colorcode' 
-- on color
+- on color '#blue gradients'
