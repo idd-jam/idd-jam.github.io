@@ -1,3 +1,59 @@
+.html{
+	font-size: 1rem
+
+
+
+	--error:
+	--primary-a:
+	--secondary-a: #
+	--secondary-b: #
+
+	--on-secondary; #
+	--on-background: #
+	--on-error
+}
+
+
+.body {
+	background-color: var(--background);
+	color: var(--on-background);
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1rem
+	font-family: var(--content);
+}
+
+.h1{
+	border-bottom: 0.125rem solid #171414
+	font: 500 normal 2.5rem 'Roboto', 'helvetica, aria,'
+}
+
+
+.divider {
+	border-bottom: 0.5rem solid #171414;
+}
+
+.btn {
+	background-color: var(--primary-a);
+	color: var(--on-primary);
+	font-size: 1rem
+	padding: 1em 2em 1em 2em;
+	border: none;
+	box-shadow: 0.5rem 0.5rem 0rem var(--primary-b);
+	transition: all 0.3s;
+}
+
+.bin:hover {
+	background-color: var(--primary-b)
+	box-shadow: 0rem 0rem 0rem var(--primary-b)
+	cursor: pointer;
+}
+
+.menubar {
+	background: var(--on-background);
+	color: var(--background);
+}
+
 body {
 	background-color: tomato;
 }
