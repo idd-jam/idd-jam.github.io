@@ -60,3 +60,15 @@ This is our course site
 ### Colours
 - back '#colorcode' 
 - on color '#blue gradients'
+
+### Class notes
+
+Exclamation mark and enter to work in html
+spg are vectors or html doc
+
+go to the manu and right click on the image, copy relative path. make sure that the slash is the position of the live server
+
+DIGITAL COLOR METER IN MAC to pic colors
+
+320 is the norrower
+90 create the first screen change

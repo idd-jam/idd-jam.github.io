@@ -1,16 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 .html{
-	font-size: 1rem
+	font-size: 1rem;
 
-
-
-	--error:
-	--primary-a:
-	--secondary-a: #
-	--secondary-b: #
-
-	--on-secondary; #
-	--on-background: #
-	--on-error
 }
 
 
@@ -19,12 +11,12 @@
 	color: var(--on-background);
 	font-weight: normal;
 	font-style: normal;
-	font-size: 1rem
+	font-size: 1rem;
 	font-family: var(--content);
 }
 
 .h1{
-	border-bottom: 0.125rem solid #171414
+	border-bottom: 0.125rem solid #171414;
 	font: 500 normal 2.5rem 'Roboto', 'helvetica, aria,'
 }
 
@@ -36,7 +28,7 @@
 .btn {
 	background-color: var(--primary-a);
 	color: var(--on-primary);
-	font-size: 1rem
+	font-size: 1rem;
 	padding: 1em 2em 1em 2em;
 	border: none;
 	box-shadow: 0.5rem 0.5rem 0rem var(--primary-b);
@@ -44,8 +36,8 @@
 }
 
 .bin:hover {
-	background-color: var(--primary-b)
-	box-shadow: 0rem 0rem 0rem var(--primary-b)
+	background-color: var(--primary-b);
+	box-shadow: 0rem 0rem 0rem var(--primary-b);
 	cursor: pointer;
 }
 
@@ -183,7 +175,7 @@ a{
   font-family: 'Gill Sans', cursive;
   font-size: 0.6em;
 }
-@media screen and (min-width:600px){
+@media screen and (min-width:600px) {
     body{
       display: inline;
       text-align: center;
