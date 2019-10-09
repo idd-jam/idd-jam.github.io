@@ -1,29 +1,141 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
 
-.html{
-	font-size: 1rem;
+    /* MERGING SECOND CSS HERE */
 
+html {
+    --background: #fff;
+    --on-background: rgb(4, 83, 142); 
+    --on-background-b: #666;
+}
+
+body {
+    font: 1em 'roboto', sans-serif;
+    line-height: 1;
+    background-color: #171414;
+    color: var(--on-background);
+}
+
+a{
+    color: rgb(91, 179, 255);
+    text-decoration: none;
+}
+
+.product {
+    background-color: var(--on-background);
+    color: var(--on-background-b);
+    text-align: center;
+
+    box-sizing: border-box;
+    min-height: 20em;
+    padding: 3em 0;
+    
+    background-image: url(img/Casa.jpg
+);
+    /* background-size: 100% */
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: auto 100%;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
 
 
-.body {
-	background-color: var(--background);
-	color: var(--on-background);
-	font-weight: normal;
-	font-style: normal;
-	font-size: 1rem;
-	font-family: var(--content);
+@media screen and (min-width: 840px) {
+
+  .product {
+      background-image: none;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      padding: 0;
+}
+  .product text {
+      place-self: center;
+      font-size: 1.2em;
+  }
+  .product-image {
+      display: block;
+}
+  .product-image img {
+      max-width: 100%;
+}
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #555; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
 }
 
-.h1{
-	border-bottom: 0.125rem solid #171414;
-	font: 500 normal 2.5rem 'Roboto', 'helvetica, aria,'
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: rgb(4, 83, 142) ; /* Add an active/current color */
 }
 
 
-.divider {
-	border-bottom: 0.5rem solid #171414;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+    /* MERGING SECOND CSS HERE */
+
+
+
+
+
+
+
+
+
+
+
 
 .btn {
 	background-color: var(--primary-a);
