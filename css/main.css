@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
 
-
+/*
 html {
     --background: #fff;
     --on-background: rgb(4, 83, 142); 
     --on-background-b: #666;
 }
+*/
 
 body {
-    font: 1em 'roboto', sans-serif;
-    line-height: 1;
+    font: 1em Helvetica, Arial, 'roboto', sans-serif;
+/*    line-height: 1; */
     color: #fff
 }
 
 a{
-    color: rgb(91, 179, 255);
+    color: rgb(110, 255, 91);
     text-decoration: none;
 }
 
 .product {
+  /*
     background-color: var(--on-background);
     color: var(--on-background-b);
     text-align: center;
@@ -29,11 +31,14 @@ a{
     
     background-image: url(img/Casa.jpg
 );
-    /* background-size: 100% */
+
+    background-size: 100%
     background-repeat: no-repeat;
     background-position: center bottom;
+    */
     background-size: auto 100%;
 }
+
 
 header{
   text-align: center;
@@ -44,7 +49,18 @@ header{
   background-color: rgba(4, 83, 142, 0.9);
   background-size: 100% 100%;
 }
-/* RHIS IS TRYING TO PUT AN IMAGE IN THE MENU*/
+
+.TopBar{
+  width: auto;
+  height: 5;
+  padding: 1px;
+  margin: 0px;
+  margin-top: 0px;
+}
+
+
+
+/* RHIS IS TRYING TO PUT AN IMAGE IN THE MENU as a button
 button {
   display: inline-block;
   height: 100%;
@@ -53,6 +69,7 @@ button {
   vertical-align: top;
   width: 100%;
 }
+*/
 
 #close-image img {
   display: block;
@@ -60,8 +77,6 @@ button {
   width: 100%;
 }
 
-
-/* GOAAAAAL: NEXT OBJECTIVE */
 
 .icon-bar {
   width: 100%; /* Full-width */
@@ -73,7 +88,7 @@ button {
   float: left; /* Float links side by side */
   text-align: center; /* Center-align text */
   width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
-  padding: 22px 0; /* Some top and bottom padding */
+  padding: 2px 0; /* Some top and bottom padding */
   transition: all 0.3s ease; /* Add transition for hover effects */
   color: rgb(255, 255, 255); /* White text color */
   font-size: 36px; /* Increased font size */
@@ -111,6 +126,18 @@ button {
   vertical-align: middle;
   width: 100%;
 }
+.square {
+  background-color: rgb(4, 83, 142);
+  width: auto;
+  height: 110px;
+  padding-left: 0px;
+  padding-top: 100px;
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -266,7 +293,7 @@ footer{
     }
 
 .active {
-    background-color: #bab7b7;
+    background-color: #000 ;
     color: black;
     width: 200px;
     margin: auto;
@@ -298,4 +325,4 @@ a{
     font-size: 20px;
     width: 15vw;;
     }
-    }}
+    }
