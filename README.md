@@ -12,13 +12,12 @@ This is our course site
 - Header
     - GBC logo
     - Showcase of works made by students 
-    - Navigation buttons for the showcase
     - Name of the program
 - Body
     - Menu
         - Career Success
             - Description
-            - Course content
+            - Courses
             - Opportunities
         - Apply
             - Qualify and Apply

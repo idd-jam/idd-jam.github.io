@@ -71,7 +71,7 @@ a{
   }
 
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 800px) {
 
     .product {
         background-image: none;
@@ -134,7 +134,7 @@ a{
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 850px) {
     .column {
       flex: 50%;
       max-width: 50%;
@@ -147,4 +147,4 @@ a{
       flex: 100%;
       max-width: 100%;
     }
-  }
+  }}

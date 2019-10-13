@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
 
-    /* MERGING SECOND CSS HERE */
 
 html {
     --background: #fff;
@@ -11,8 +10,7 @@ html {
 body {
     font: 1em 'roboto', sans-serif;
     line-height: 1;
-    background-color: #171414;
-    color: var(--on-background);
+    color: #fff
 }
 
 a{
@@ -37,43 +35,47 @@ a{
     background-size: auto 100%;
 }
 
-.responsive {
-  max-width: 100%;
-  height: auto;
+header{
+  text-align: center;
+  height: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(4, 83, 142, 0.9);
+  background-size: 100% 100%;
+}
+/* RHIS IS TRYING TO PUT AN IMAGE IN THE MENU*/
+button {
+  display: inline-block;
+  height: 100%;
+  padding: 50;
+  margin: 50;
+  vertical-align: top;
+  width: 100%;
+}
+
+#close-image img {
+  display: block;
+  height: 100%;  
+  width: 100%;
 }
 
 
-@media screen and (min-width: 840px) {
+/* GOAAAAAL: NEXT OBJECTIVE */
 
-  .product {
-      background-image: none;
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      padding: 0;
-}
-  .product text {
-      place-self: center;
-      font-size: 1.2em;
-  }
-  .product-image {
-      display: block;
-}
-  .product-image img {
-      max-width: 100%;
-}
 .icon-bar {
   width: 100%; /* Full-width */
-  background-color: #555; /* Dark-grey background */
+  background-color:  rgba(150, 150, 150, 0.0); /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
 }
 
 .icon-bar a {
   float: left; /* Float links side by side */
   text-align: center; /* Center-align text */
-  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
-  padding: 12px 0; /* Some top and bottom padding */
+  width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 22px 0; /* Some top and bottom padding */
   transition: all 0.3s ease; /* Add transition for hover effects */
-  color: white; /* White text color */
+  color: rgb(255, 255, 255); /* White text color */
   font-size: 36px; /* Increased font size */
 }
 
@@ -86,6 +88,11 @@ a{
 }
 
 
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -95,7 +102,7 @@ a{
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
-  max-width: 25%;
+  max-width: 100%;
   padding: 0 4px;
 }
 
@@ -108,9 +115,12 @@ a{
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
-    flex: 50%;
-    max-width: 50%;
+    flex: 33%;
+    max-width: 100%;
   }
+  .hide-this{
+      display:none;
+      } 
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -123,11 +133,9 @@ a{
 
 
 
-
-    /* MERGING SECOND CSS HERE */
-
-
-
+@media screen and (min-width: 800px) {    /* I think I can deltet this line */
+  
+}
 
 
 
@@ -136,6 +144,10 @@ a{
 
 
 
+
+.divider {
+	border-bottom: 0.5rem solid #171414;
+}
 
 .btn {
 	background-color: var(--primary-a);
@@ -150,8 +162,9 @@ a{
 .bin:hover {
 	background-color: var(--primary-b);
 	box-shadow: 0rem 0rem 0rem var(--primary-b);
-	cursor: pointer;
+  cursor: pointer;
 }
+
 
 .menubar {
 	background: var(--on-background);
@@ -161,10 +174,7 @@ a{
 body {
 	background-color:#ffffff;
 }
-.MyDivClassTerm3
-{
-  
-}
+
 
 .MyDivClass0
 {
@@ -195,17 +205,7 @@ border: 0px inset rgb(219, 240, 241);
 background-color: #ffffff;
 display: inline-grid;
 }
-.MyDivClass3
-{
-width: 400px;
-height: 400px;
-margin: 100px 100px;
-padding: 100px 100px;
-border: 0px inset rgb(219, 240, 241);
-background-color: #ffffff;
-display: inline-grid;
-grid-template-columns: 1fr;
-}
+
 .MyDivClass4
 {
 width: 600px;
@@ -240,14 +240,8 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
   font-family: 'Gill Sans', sans-serif;
   text-align: center;
 }
-header{
-  text-align: center;
-  height: 20vh;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: rgba(250, 250, 250, 0.90);
-}
+
+
 main{
   scroll-behavior: auto;
   margin-top: 25vh;
@@ -304,4 +298,4 @@ a{
     font-size: 20px;
     width: 15vw;;
     }
-    }
+    }}
